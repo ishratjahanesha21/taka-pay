@@ -1,0 +1,63 @@
+.avatar-image{
+    animation:pulseAnimate 3s linear infinite;
+	animation-delay: calc(1s * var(--i));
+}
+@keyframes pulseAnimate{
+	100%{
+		opacity:0;
+		transform:scale(1)
+	}
+	
+}
+.image-section label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px dotted rgba(45, 45, 111, 0.833);
+    background-color: rgb(45, 45, 111); */
+    color:white;
+    border-radius: 20px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    font-size: large;
+     margin-top: 90px;
+     position: relative;
+     margin-left: -40px;
+}
+
+label span {
+    font-weight: lighter;
+    font-size: small;
+    padding-top: 0.5rem;
+}
+
+.image-section input {
+    display: none;
+}
+.submit-bottom-btn{
+    position: absolute;
+    bottom: 0%;
+}
+
+.data-image-section label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px dotted rgba(45, 45, 111, 0.833);
+    background-color: rgb(45, 45, 111); */
+    color:white;
+    border-radius: 40px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    font-size: large;
+     margin-top: 95px;
+     position: relative;
+     margin-left: -100px;
+}
+.data-image-section input {
+    display: none;
+}
